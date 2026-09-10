@@ -1,0 +1,47 @@
+# Compilação e artefatos Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+build/
+
+# Maven / Gradle locais
+.mvn/timing.properties
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / NetBeans / VS Code
+.classpath
+.project
+.settings/
+nbproject/private/
+/.vscode/
+
+# Relatórios e cobertura
+coverage/
+reports/
+*.exec
+*.log
+
+# Sistema operacional e temporários
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Java / Gradle / Maven local caches
+.java-version
+
