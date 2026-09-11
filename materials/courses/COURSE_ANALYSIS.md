@@ -12,6 +12,10 @@ O curso possui 32 módulos, começando por plataforma/JVM e fundamentos e avanç
 
 O curso possui 25 módulos, cobrindo introdução, Spring/DI, JPA/Hibernate, REST, Spring Data JPA, persistência avançada, pool/Flyway, erros, Bean Validation, testes de integração, boas práticas de APIs, modelagem, projeções/relatórios, arquivos, e-mail e eventos, CORS, cache HTTP, OpenAPI/Swagger UI/SpringFox, HATEOAS, versionamento, logging, Spring Security/OAuth2, JWT/controle de acesso, Docker e deploy em containers na AWS.
 
+### Formação Decoder — Michelli Brito
+
+A fonte disponível é uma ementa em imagens fornecida pelo mentorado. Ela sustenta o registro dos tópicos explicitamente observáveis no documento [da formação](FORMACAO_DECODER_MICROSERVICES_MICHELLI_BRITO.md), mas não confirma o ano/edição exatos nem versões, bibliotecas ou detalhes de implementação além do que está visível.
+
 ### Leitura factual conjunta
 
 Os cursos fornecem uma sequência coerente de linguagem para backend e uma visão end-to-end de uma API. A existência de uma aula ou desafio é evidência de que o material o inclui, não de que o mentorado o domina.
@@ -25,6 +29,27 @@ O curso Java é uma base forte para linguagem e engenharia: JVM, orientação a 
 O curso Spring é uma espinha dorsal profissional ampla: IoC/DI, Spring Boot, JPA/Hibernate, Spring Data, HTTP/REST, modelagem de APIs, erros, Bean Validation, integração, DTOs, transações, Flyway, cache, segurança, OAuth2, Docker e AWS. Ele ajuda a conectar código, persistência, API e operação.
 
 `QueryDSL` não foi encontrado nas fontes fornecidas e, portanto, não é atribuído à ementa. Caso seja considerado futuramente, será um complemento da mentoria, sujeito a justificativa e verificação na etapa correspondente.
+
+### Formação Decoder na sequência e reconciliação de lacunas
+
+A Decoder não substitui Java nem Spring REST; entra depois do backend core como formação de sistemas distribuídos e microsserviços. `START_NOW = NO` e `READY_FOR_FIRST_APPLICATIONS_DOES_NOT_REQUIRE_DECODER = YES` permanecem explícitos.
+
+Com base apenas nos tópicos observados, a formação cobre:
+
+- sistemas distribuídos e microsserviços;
+- comunicação síncrona e assíncrona;
+- service discovery;
+- API Gateway;
+- load balancing;
+- API Composition;
+- comunicação baseada em mensagens e broker pattern;
+- transação distribuída no recorte explicitamente observado;
+- circuit breaker e retry;
+- configuração distribuída;
+- segurança distribuída;
+- deploy de microsserviços.
+
+Esses tópicos deixam de ser lacunas puras da análise, sem constituírem evidência de domínio. Permanecem como complementos ou lacunas a validar quando não há evidência suficiente: OpenTelemetry, observabilidade distribuída moderna, Kubernetes, idempotência, Kafka, RabbitMQ, tracing distribuído, estratégias modernas de deployment e system design mais amplo. `Broker Pattern` não é interpretado como prova de Kafka ou RabbitMQ.
 
 ### Complementos obrigatórios
 
@@ -43,8 +68,9 @@ Os cursos serão complementados, no momento pedagógico adequado, por:
 - tracing e OpenTelemetry;
 - Docker moderno e Kubernetes depois de Docker/cloud;
 - Redis;
-- mensageria, Kafka/RabbitMQ;
-- resiliência, retries, circuit breakers, idempotência e consistência distribuída;
+- aprofundamento de mensageria e integração orientada a eventos além do recorte observado;
+- Kafka/RabbitMQ, sem inferi-los a partir de `Broker Pattern`;
+- resiliência, timeouts, idempotência e consistência distribuída além dos tópicos observados;
 - system design e observabilidade distribuída;
 - inglês técnico e entrevistas.
 

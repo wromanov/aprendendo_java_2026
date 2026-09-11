@@ -4,6 +4,8 @@ Repositório de governança, acompanhamento e evidências da jornada de formaç�
 
 O projeto parte da experiência profissional prévia em infraestrutura e a conecta progressivamente a desenvolvimento de software, backend, cloud, containers, CI/CD, segurança, redes e observabilidade.
 
+A jornada possui três formações principais: Especialista Java, Especialista Spring REST e Formação Decoder. A ordem pedagógica e os complementos são detalhados no roadmap.
+
 ## Propósito
 
 Este repositório registra:
@@ -50,6 +52,7 @@ aprendendo_java_2026/
 │   └── courses/
 │       ├── ESPECIALISTA_JAVA_ALGAWORKS_2022.md
 │       ├── ESPECIALISTA_SPRING_REST_ALGAWORKS_2022.md
+│       ├── FORMACAO_DECODER_MICROSERVICES_MICHELLI_BRITO.md
 │       └── COURSE_ANALYSIS.md
 └── projects/
     ├── README.md
@@ -81,6 +84,7 @@ O estado canônico da jornada está em [progress/LEARNING_STATE.md](progress/LEA
 - [Learning State](progress/LEARNING_STATE.md)
 - [Curso Especialista Java](materials/courses/ESPECIALISTA_JAVA_ALGAWORKS_2022.md)
 - [Curso Especialista Spring REST](materials/courses/ESPECIALISTA_SPRING_REST_ALGAWORKS_2022.md)
+- [Formação Decoder — Michelli Brito](materials/courses/FORMACAO_DECODER_MICROSERVICES_MICHELLI_BRITO.md)
 - [Análise dos cursos](materials/courses/COURSE_ANALYSIS.md)
 - [Projeto incremental InfraTrack](projects/INCREMENTAL_PROJECT.md)
 

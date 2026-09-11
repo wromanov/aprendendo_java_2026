@@ -9,6 +9,10 @@ Este arquivo representa o estado atual conhecido da jornada. Ele deve ser atuali
 ```text
 JAVA_COURSE = IDENTIFIED_AND_APPROVED
 SPRING_COURSE = IDENTIFIED_AND_APPROVED_WITH_MODERNIZATION
+DECODER_COURSE = IDENTIFIED_AND_APPROVED_AS_POST_BACKEND_CORE
+DECODER_STATUS = NOT_STARTED
+DECODER_ROLE = DISTRIBUTED_SYSTEMS_MICROSERVICES
+START_DECODER_NOW = NO
 COURSES_ANALYZED = YES
 ROADMAP_STATUS = CREATED
 INCREMENTAL_PROJECT_STATUS = DOCUMENTED_NOT_STARTED
@@ -105,6 +109,7 @@ Quando houver implementação, registrar aqui:
 
 - Governança documental preservada.
 - Ementas Java e Spring identificadas e analisadas.
+- Formação Decoder identificada e aprovada como etapa posterior ao backend core, sem alteração de progresso.
 - Roadmap criado.
 - InfraTrack documentado, sem implementação.
 - Nenhuma competência técnica foi declarada como dominada por causa da análise documental.

@@ -46,6 +46,17 @@ Java básico
 
 Essa evolução é uma direção, não um calendário. Um incremento pode produzir uma feature, uma refatoração, mais robustez, testes ou apenas a aplicação consciente de um conceito.
 
+## Evolução distribuída condicional
+
+```text
+DISTRIBUTED_EVOLUTION_CANDIDATE = YES
+MICROSERVICE_DECOMPOSITION = CONDITIONAL
+NOT_AUTOMATIC = YES
+INFRATRACK_CONVERTED_TO_MICROSERVICES = NO
+```
+
+A quebra do InfraTrack em microsserviços não é garantida. Ela só ocorrerá se houver uma razão arquitetural e pedagógica concreta. O projeto pode permanecer um monólito modular se essa for a decisão tecnicamente superior; a evolução distribuída não deve ocorrer apenas para “usar microsserviços”.
+
 ## Regras de crescimento
 
 - Começar com o menor problema útil para o módulo atual.
