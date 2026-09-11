@@ -1,6 +1,5 @@
 # Roadmap
 
-Área reservada para o futuro `ROADMAP_JAVA_BACKEND_ENGINEER.md`.
+Área do mapa de competências Java → Backend Engineer.
 
-O roadmap será produzido depois que as ementas completas dos cursos forem fornecidas e analisadas. Nenhuma ementa foi analisada nesta etapa.
-
+- [ROADMAP JAVA → BACKEND ENGINEER](ROADMAP_JAVA_BACKEND_ENGINEER.md)

@@ -39,15 +39,21 @@ aprendendo_java_2026/
 │   ├── PROMPT_MESTRE_MENTOR_JAVA.md
 │   └── INDEPENDENCIA_ANALITICA_MENTOR_JAVA_v1.0.md
 ├── roadmap/
-│   └── (reservado para ROADMAP_JAVA_BACKEND_ENGINEER.md)
+│   ├── README.md
+│   └── ROADMAP_JAVA_BACKEND_ENGINEER.md
 ├── checkpoints/
 │   └── CHECKPOINT_TEMPLATE.md
 ├── progress/
 │   └── LEARNING_STATE.md
 ├── materials/
-│   └── (anotações e material produzido)
+│   ├── README.md
+│   └── courses/
+│       ├── ESPECIALISTA_JAVA_ALGAWORKS_2022.md
+│       ├── ESPECIALISTA_SPRING_REST_ALGAWORKS_2022.md
+│       └── COURSE_ANALYSIS.md
 └── projects/
-    └── (documentação e referências dos projetos práticos)
+    ├── README.md
+    └── INCREMENTAL_PROJECT.md
 ```
 
 Exercícios pequenos podem permanecer em `materials/` ou dentro da documentação do módulo. Projetos com valor demonstrável devem evoluir em `projects/` ou em repositório próprio quando atingirem maturidade suficiente.
@@ -66,11 +72,30 @@ Exercícios pequenos podem permanecer em `materials/` ou dentro da documentaçã
 
 O estado canônico da jornada está em [progress/LEARNING_STATE.md](progress/LEARNING_STATE.md). As políticas vigentes estão em [governance/PROMPT_MESTRE_MENTOR_JAVA.md](governance/PROMPT_MESTRE_MENTOR_JAVA.md) e [governance/INDEPENDENCIA_ANALITICA_MENTOR_JAVA_v1.0.md](governance/INDEPENDENCIA_ANALITICA_MENTOR_JAVA_v1.0.md).
 
-A análise das ementas e a criação do `ROADMAP_JAVA_BACKEND_ENGINEER.md` foram deliberadamente deixadas para a próxima etapa, após o recebimento das ementas completas dos cursos.
+## Documentação canônica
+
+- [Prompt Mestre](governance/PROMPT_MESTRE_MENTOR_JAVA.md)
+- [Independência Analítica](governance/INDEPENDENCIA_ANALITICA_MENTOR_JAVA_v1.0.md)
+- [Roadmap Java → Backend Engineer](roadmap/ROADMAP_JAVA_BACKEND_ENGINEER.md)
+- [Template de checkpoint](checkpoints/CHECKPOINT_TEMPLATE.md)
+- [Learning State](progress/LEARNING_STATE.md)
+- [Curso Especialista Java](materials/courses/ESPECIALISTA_JAVA_ALGAWORKS_2022.md)
+- [Curso Especialista Spring REST](materials/courses/ESPECIALISTA_SPRING_REST_ALGAWORKS_2022.md)
+- [Análise dos cursos](materials/courses/COURSE_ANALYSIS.md)
+- [Projeto incremental InfraTrack](projects/INCREMENTAL_PROJECT.md)
+
+## Status atual
+
+```text
+Governance baseline: ESTABLISHED
+Courses: ANALYZED
+Roadmap: AVAILABLE
+Java learning: NOT_STARTED
+Next formal step: START JAVA MODULE 01
+```
 
 ## Repositório remoto
 
 Repositório informado para este projeto:
 
 `https://github.com/wromanov/aprendendo_java_2026.git`
-

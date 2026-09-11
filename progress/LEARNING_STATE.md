@@ -1,28 +1,35 @@
 # LEARNING STATE — ESTADO CANÔNICO DA JORNADA
 
-**Data de atualização:** 2026-09-10
+**Data de atualização:** 2026-09-11
 
 Este arquivo representa o estado atual conhecido da jornada. Ele deve ser atualizado quando houver evidência nova, sem apagar o histórico dos checkpoints anteriores.
 
 ## Estado atual
 
 ```text
-CURRENT_COURSE = A definir — aguardando ementas completas
-CURRENT_MODULE = Não iniciado
+JAVA_COURSE = IDENTIFIED_AND_APPROVED
+SPRING_COURSE = IDENTIFIED_AND_APPROVED_WITH_MODERNIZATION
+COURSES_ANALYZED = YES
+ROADMAP_STATUS = CREATED
+INCREMENTAL_PROJECT_STATUS = DOCUMENTED_NOT_STARTED
+
+CURRENT_COURSE = Especialista Java
+CURRENT_MODULE = NOT_STARTED
 CURRENT_SECTION = Não iniciado
 
 MODULE_STATUS = NOT_STARTED
 OVERALL_STATE = Ainda não avaliado
 CONFIDENCE = LOW
-PEDAGOGICAL_DEBT = NONE — nenhuma dívida conhecida; formação ainda não iniciada
+PEDAGOGICAL_DEBT = NONE
 
 LAST_CHECKPOINT = Nenhum
-NEXT_CHECKPOINT = Após análise das ementas e conclusão do primeiro ciclo do módulo 1
+NEXT_CHECKPOINT = Após o fechamento do baseline documental e o primeiro ciclo do módulo 1
 
-MAIN_PROJECT = A definir após a análise das ementas
+MAIN_PROJECT = InfraTrack (provisional; documented, not started)
 PROJECT_STAGE = FOUNDATION_BOOTSTRAP
 
-CURRENT_FOCUS = Preparar a governança documental e receber as ementas dos cursos
+CURRENT_FOCUS = Após o fechamento do baseline documental, iniciar o módulo Java 01 — Plataforma Java e ambiente de desenvolvimento
+NEXT_FORMAL_ACTIVITY = START_JAVA_MODULE_01_AFTER_DOCUMENTATION_BASELINE_COMMIT
 
 READY_TO_ADVANCE = NO — não há módulo avaliado nem evidência de domínio nesta jornada
 READY_FOR_FIRST_APPLICATIONS = NO — a preparação profissional ainda não foi avaliada
@@ -32,18 +39,18 @@ READY_FOR_FIRST_APPLICATIONS = NO — a preparação profissional ainda não foi
 
 | Competência | Estado atual | Evidência / observação |
 | --- | --- | --- |
-| Fundamentos de programação | Não avaliado | Aguardando início formal da trilha |
-| Java | Não avaliado | Aguardando ementas e exercícios |
-| Orientação a objetos | Não avaliado | Aguardando ementas e exercícios |
-| Collections / generics | Não avaliado | Aguardando ementas e exercícios |
-| Exceptions / debugging | Não avaliado | Aguardando ementas e exercícios |
+| Fundamentos de programação | Não avaliado | Aguardando início formal do Java M01 |
+| Java | Não avaliado | Curso identificado; aguardando exercícios e evidências |
+| Orientação a objetos | Não avaliado | Mapeado no curso Java; aguardando exercícios e evidências |
+| Collections / generics | Não avaliado | Mapeado no curso Java; aguardando exercícios e evidências |
+| Exceptions / debugging | Não avaliado | Mapeado no curso Java; aguardando exercícios e evidências |
 | Git / GitHub | Bootstrap documental | Este repositório foi estruturado para registrar a evolução |
 | Testes | Não avaliado | Será introduzido conforme a sequência pedagógica |
-| SQL / persistência | Não avaliado | Será mapeado após as ementas |
-| HTTP / REST / backend | Não avaliado | Será mapeado após as ementas |
-| Spring / Spring Boot | Não avaliado | Será mapeado após as ementas |
-| Docker / cloud / CI/CD | Não avaliado | Ponte futura com a experiência em infraestrutura |
-| Observabilidade / produção | Não avaliado | Ponte futura com a experiência em infraestrutura |
+| SQL / persistência | Não avaliado | Mapeado no roadmap; SQL/PostgreSQL virá antes de ORM |
+| HTTP / REST / backend | Não avaliado | Mapeado no roadmap e no curso Spring |
+| Spring / Spring Boot | Não avaliado | Curso identificado; modernização será verificada na etapa |
+| Docker / cloud / CI/CD | Não avaliado | Mapeado como etapa futura e ponte com infraestrutura |
+| Observabilidade / produção | Não avaliado | Mapeado como etapa futura; ainda sem evidência prática |
 | Autonomia | Não avaliado | Será medida por evidências e `ASSISTANCE_LEVEL` |
 
 ## Dívida pedagógica
@@ -71,13 +78,13 @@ Esses campos acompanham padrões ao longo de vários checkpoints. Não devem ser
 | Registro | Estado | Observação |
 | --- | --- | --- |
 | Checkpoint inicial de governança | Concluído | Estrutura e políticas criadas; não é avaliação de competência Java |
-| Primeiro checkpoint de módulo | Pendente | Depende das ementas e do início do curso |
+| Primeiro checkpoint de módulo | Pendente | Depende do início do Java M01 e das evidências práticas |
 
 ## Projeto principal
 
-O projeto principal ainda não foi definido. A escolha deve ser feita depois de analisar as ementas, os objetivos pedagógicos, o nível inicial e o caminho incremental mais adequado.
+O projeto incremental provisório é o InfraTrack. Ele está documentado, mas não iniciado; o nome e o escopo permanecem revisáveis conforme os requisitos pedagógicos e o nível inicial.
 
-Quando definido, registrar aqui:
+Quando houver implementação, registrar aqui:
 
 - problema de negócio;
 - escopo atual;
@@ -88,9 +95,16 @@ Quando definido, registrar aqui:
 
 ## Próximas ações
 
-1. Receber as ementas completas dos cursos.
-2. Analisar a sequência, dependências, lacunas e complementos.
-3. Criar o `ROADMAP_JAVA_BACKEND_ENGINEER.md`.
-4. Iniciar o primeiro módulo com exercícios, contexto profissional e registro de evidências.
+1. Fechar o baseline documental após a reauditoria do mentor.
+2. Após o baseline, iniciar o módulo Java 01 com exercícios e contexto profissional.
+3. Registrar a primeira evidência e o checkpoint quando aplicável.
+4. Reintroduzir conteúdos em retenção e transferência sem apagar histórico.
+5. Evoluir o InfraTrack somente quando requisitos e conceitos justificarem.
 
-As etapas de ementa e roadmap estão deliberadamente fora do bootstrap atual.
+## Histórico desta atualização
+
+- Governança documental preservada.
+- Ementas Java e Spring identificadas e analisadas.
+- Roadmap criado.
+- InfraTrack documentado, sem implementação.
+- Nenhuma competência técnica foi declarada como dominada por causa da análise documental.
