@@ -21,9 +21,20 @@ Formar um Backend Java Engineer capaz de compreender um problema, modelar uma so
 ```text
 Java M01–M32 → engenharia de software → ponte para backend
 → SQL/PostgreSQL → JDBC → HTTP/REST → Spring profissional
-→ testes → Docker/cloud → observabilidade → sistemas distribuídos
+→ testes → Docker/backend operacional básico → Decoder
+→ complementos avançados de produção, observabilidade e arquitetura distribuída
 → portfólio, empregabilidade, inglês técnico e entrevistas
 ```
+
+A ordem oficial das formações é:
+
+1. Especialista Java;
+2. Ponte Java → Backend;
+3. Especialista Spring REST;
+4. Formação Decoder — Microsserviços e Sistemas Distribuídos;
+5. complementos avançados de produção, observabilidade e arquitetura distribuída.
+
+A conclusão da Decoder não é requisito para `READY_FOR_FIRST_APPLICATIONS`.
 
 ## 4. Fundação Java
 
@@ -107,9 +118,65 @@ Depois de Docker: compute, storage, bancos, redes, IAM, TLS, secrets, load balan
 
 Logs estruturados, correlação, métricas com Actuator/Micrometer, health/readiness checks, tracing e OpenTelemetry entram como ferramentas para responder perguntas operacionais. Observabilidade não é apenas instalar agentes; é produzir sinais úteis e acionáveis.
 
-## 20. Sistemas distribuídos
+## 20. FASE — MICROSSERVIÇOS E SISTEMAS DISTRIBUÍDOS
 
-Somente após fundamentos e operação: comunicação síncrona/assíncrona, filas, Kafka/RabbitMQ, Redis, consistência, retries, timeouts, circuit breakers, idempotência, resiliência e observabilidade distribuída. A complexidade precisa ser justificada pelo problema.
+**Base principal:** [Formação Decoder — Michelli Brito](../materials/courses/FORMACAO_DECODER_MICROSERVICES_MICHELLI_BRITO.md)
+
+```text
+ROLE = DISTRIBUTED_SYSTEMS_MICROSERVICES
+PRIORITY = HIGH
+ORDER = 3
+COURSE_STATUS = APPROVED_AS_POST_BACKEND_CORE
+START_NOW = NO
+```
+
+### Posição obrigatória
+
+Esta fase começa somente depois de Java, da Ponte Java → Backend, de SQL, JDBC, HTTP/REST, Spring Boot, persistência, testes, segurança básica e Docker/backend operacional básico.
+
+### Objetivos da fase
+
+- decomposição de sistemas;
+- comunicação síncrona;
+- comunicação assíncrona;
+- service discovery;
+- gateway;
+- load balancing;
+- API Composition;
+- eventos;
+- mensagens;
+- broker pattern;
+- consistência e transações distribuídas;
+- retry;
+- circuit breaker;
+- resiliência;
+- configuração distribuída;
+- autenticação e autorização entre componentes;
+- ambientes;
+- deploy.
+
+### Gate de prontidão
+
+```text
+READY_FOR_DISTRIBUTED_SYSTEMS = NO | CONDITIONAL | YES
+```
+
+`READY_FOR_DISTRIBUTED_SYSTEMS = YES` somente quando houver evidência suficiente de que o mentorado consegue:
+
+1. construir e explicar um backend monolítico/modular;
+2. compreender REST/HTTP;
+3. compreender persistência e transações;
+4. escrever e interpretar testes;
+5. trabalhar funcionalmente com Spring Boot;
+6. usar Docker em nível básico;
+7. depurar aplicações backend;
+8. explicar por que microsserviços não são sempre a melhor arquitetura.
+
+Microsserviços não são a arquitetura padrão. Um monólito modular é uma opção válida, e toda decisão arquitetural exige análise de trade-offs.
+
+A fonte observada da Decoder não comprova, por si só, OpenTelemetry, observabilidade distribuída moderna, Kubernetes, idempotência, Kafka, RabbitMQ, tracing distribuído, estratégias modernas de deployment ou system design mais amplo. Esses temas permanecem complementos a validar.
+
+`READY_FOR_FIRST_APPLICATIONS` permanece uma métrica independente da Decoder; a conclusão desta fase não é requisito para sua mudança.
 
 ## 21. Algoritmos/estruturas de dados
 
