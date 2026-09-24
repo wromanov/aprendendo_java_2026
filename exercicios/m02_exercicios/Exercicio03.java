@@ -13,10 +13,10 @@ void main() {
     double percentualUtilizado = (consumoAcumulado / quantidadeFranquiaMensal) * 100;
 
     IO.println("Link: " + identificacaoLink);
-    IO.println("Franquia: " + quantidadeFranquiaMensal);
-    IO.println("Consumo acumulado: " + consumoAcumulado);
-    IO.println("Saldo disponível: " + saldoDisponivelFranquia);
-    IO.println("Percentual utilizado: " + percentualUtilizado + "%");
+    IO.println("Franquia: %.2f GB".formatted(quantidadeFranquiaMensal));
+    IO.println("Consumo acumulado: %.2f GB".formatted(consumoAcumulado));
+    IO.println("Saldo disponível: %.2f GB".formatted(saldoDisponivelFranquia));
+    IO.println("Percentual utilizado: %.2f%%".formatted(percentualUtilizado));
 
 
 }
